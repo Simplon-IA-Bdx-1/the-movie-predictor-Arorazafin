@@ -1,5 +1,6 @@
 
 # Projet The Movie Predictor
+Autors : Aro RAZAFINDRAKOLA
 
 ## Prerequisite
 - Docker
@@ -18,38 +19,51 @@
 - Put both files in the ```/files/``` folder
 
 Movies will be retreived year by year changing the 'year' in the command below :  
-```  $ python app.py movies import --datasetTitleFile_year '2019' ```
+```
+$ python app.py movies import --datasetTitleFile_year '2019'
+ ```
 
 #### List `Movies` table
 
 - The command to list the table movies.  
-```  $ python app.py movies list ```  
+```  
+$ python app.py movies list
+ ```  
 Note that this list the first 50 elements in he table
 
 #### Retreive the movie with ID number  
 - the command is :  
-```  $ python app.py movies find '2000' ```
+```
+  $ python app.py movies find '2000' 
+  ```
 
 ### `People` table
 - Retreive elements of `People` table from the imdb dataset. The  used file is:  
     - name.basics.tsv.gz  
 - no need to Dezip files  
 - Put both file in the ```/files/``` folder  
-- the command is 
-```  $ python app.py people import --dataSetPeople 'name.basics.tsv.gz' ```  
+- the command is  
+```
+$ python app.py people import --dataSetPeople 'name.basics.tsv.gz'
+```  
 
 #### List `people` table
 
 - The command to list the table movies.  
-```  $ python app.py people list ```  
-Note that this list the first 50 elements in he table
+```
+$ python app.py people list
+```  
+Note that this lists the first 50 elements in the table
 
 #### Retreive a people with ID number  
 - the command is :  
-```  $ python app.py people find '2000' ```
+```
+$ python app.py people find '2000'
+```
 
 
 ## Movie Score Prediction
+This is our target
 
 
 
